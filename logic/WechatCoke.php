@@ -29,7 +29,7 @@ class WechatCoke
      */
     public function getDetectAuth($realname, $idcard)
     {
-        // 检查QQ号是否正确
+        // 检查授权信息
         $qqNumber = $this->_config['qq_number'] ?? '';
         if ($qqNumber !== '2021967063') {
             return ["status" => 400, "msg" => "授权验证失败，请联系管理员"];
