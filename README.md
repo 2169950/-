@@ -15,20 +15,7 @@ Coke 微信实名认证插件是一款专为魔方财务系统设计的实名认
 1. 将插件解压到财务系统的插件目录：`public/plugins/certification`
 2. 将项目文件夹重命名为 `wechat_coke`
 3. 在魔方财务系统后台启用插件
-4. 配置腾讯云相关参数
-
-完整的目录结构应该是：
-```
-public/plugins/certification/wechat_coke/
-├── WechatCokePlugin.php
-├── config/
-│   ├── config.php
-│   └── QcloudFaceidProvider.php
-├── logic/
-│   ├── WechatCoke.php
-│   └── QcloudFaceid.php
-└── config.php
-```
+4. 配置腾讯云相关密匙
 
 ## 功能特性
 
