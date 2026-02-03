@@ -35,10 +35,10 @@ return [
         "value" => "", 
         "tip" => ""
     ], 
-    "qq_number" => [
-        "title" => "请输入Coke的QQ号", 
+    "license_key" => [
+        "title" => "授权许可", 
         "type" => "text", 
         "value" => "", 
-        "tip" => "请输入Coke的QQ号进行授权验证"
+        "tip" => "请输入授权许可密钥"
     ]
 ];
